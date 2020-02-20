@@ -1,0 +1,15 @@
+include *.txt
+include *.rst
+include LICENSE
+recursive-include src/sphinx_libcellml_theme *.conf
+recursive-include src/sphinx_libcellml_theme *.html
+recursive-include src/sphinx_libcellml_theme *.css
+recursive-include src/sphinx_libcellml_theme *.js
+recursive-include src/sphinx_libcellml_theme *.ttf
+recursive-include src/sphinx_libcellml_theme *.eot
+recursive-include src/sphinx_libcellml_theme *.svg
+recursive-include src/sphinx_libcellml_theme *.woff
+recursive-include src/sphinx_libcellml_theme *.woff2
+recursive-include src/sphinx_libcellml_theme *.jpg
+exclude demo
+global-exclude .DS_Store
